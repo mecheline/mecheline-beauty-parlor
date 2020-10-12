@@ -1,0 +1,278 @@
+* body {
+    background: url('./photos/light.jpg');
+    background-size: cover;
+    height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.lobster-color {
+    color: darkgoldenrod
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+.insta {
+    font-family: 'Grand Hotel', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
+.libre {
+    font-family: 'David Libre', serif;
+}
+
+.libra {
+    line-height: 0.5cm !important;
+    color: red
+}
+
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Electrolize&family=Libre+Baskerville:wght@400;700&family=Milonga&family=Slabo+27px&display=swap');
+.melonga {
+    font-family: 'Milonga', cursive;
+}
+
+.electrolize {
+    font-family: 'Electrolize', sans-serif;
+}
+
+.top {
+    height: 200px;
+    /* background: url('./photos/light.jpg'); */
+    /* background-color: rgb(0, 20, 50); */
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+}
+
+.parlor {
+    text-align: center;
+    color: darkgoldenrod;
+    margin-top: 50px,
+}
+
+.experience {
+    color: white;
+    text-align: center;
+}
+
+.navColor {
+    background: darkgoldenrod !important;
+}
+
+.nav-index {
+    z-index: 2
+}
+
+.caros {
+    max-height: 200px
+}
+
+.padd {
+    padding: 20px !important
+}
+
+.collection-background {
+    background: white !important
+}
+
+.black-text {
+    padding: 30px
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url('./photos/background\ 2.jpg');
+    color: white;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    float: right
+}
+
+.space {
+    padding: 10px
+}
+
+.left {
+    float: left
+}
+
+.containers {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    z-index: -1
+}
+
+.overlay {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlays {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.containers:hover .overlay {
+    height: 100%;
+}
+
+.containers:hover .overlays {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.head {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.btn-style {
+    border-radius: 20px !important;
+    background: transparent !important;
+}
+
+.center-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containers .card:hover .center-image {
+    color: transparent !important;
+}
+
+.services {
+    color: white;
+    text-align: center
+}
+
+.service-index {
+    position: relative;
+    z-index: -1;
+}
+
+.color-service {
+    height: 350px;
+    color: white;
+    border-left: 2px solid darkgoldenrod;
+    border-top: 2px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod
+}
+
+.text-muted {
+    opacity: 0.5
+}
+
+.service-image {
+    height: 350px;
+    width: 600px
+}
+
+.client {
+    color: wheat
+}
+
+.clients {
+    color: white
+}
+
+.lorem {
+    /* opacity: 0.7; */
+}
+
+.book-button {
+    border: 2px solid darkgoldenrod !important;
+    background: transparent !important;
+}
+
+.book-button:hover {
+    background: darkgoldenrod !important;
+    opacity: 0.6
+}
+
+.price {
+    color: wheat;
+    padding: 5px
+}
+
+.pricing {
+    color: white;
+    background: darkgoldenrod;
+    opacity: 0.6;
+}
+
+.item-price {
+    display: flex;
+    padding: 10px
+}
+
+.schedule {
+    color: wheat
+}
+
+.appointment {
+    color: wheat !important;
+    width: 250px !important;
+    transition: width 5s linear !important;
+}
+
+.appointment:hover {
+    color: darkgoldenrod !important;
+    width: 270px !important;
+}
+
+.frame {
+    color: transparent !important
+}
+
+.contact {
+    color: wheat
+}
